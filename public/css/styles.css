@@ -43,7 +43,7 @@
     text-align: center;
   }
   
-  .banner_img {
+  .banner__img {
     width: 100%;
     display: block;
   }
@@ -82,11 +82,11 @@
     margin-bottom: 10px;
   }
   
-  .section-article_img {
+  .section-article__img {
     width: 70%;
   }
   
-  .section-article_box {
+  .section-article__box {
     display: flex;
     flex-wrap: wrap;
     position: relative;
@@ -97,7 +97,7 @@
   
   /* CAMIÓN */
   
-  .section-article_box-icono {
+  .section-article__box-icono {
     position: absolute;
     right: 20px;
     top: -15px;
@@ -112,7 +112,7 @@
     background-color: #ffffff;
   }
   
-  .section-article_box-icono:hover {
+  .section-article__box-icono:hover {
     animation: rotate 1s linear;
     color: var(--colorCeleste);
     border: 1px solid var(--colorCeleste);
@@ -130,20 +130,20 @@
   
   /* DETALLES DEL PRODUCTO */
   
-  .section-article_precio {
+  .section-article__precio {
     width: 30%;
     margin-bottom: 20px;
     font-size: 1rem;
   }
   
-  .section-article_descuento {
+  .section-article__descuento {
     width: 70%;
     padding-left: 20px;
     font-size: 0.875rem;
     color: var(--colorVerde);
   }
   
-  .section-article_descripcion {
+  .section-article__descripcion {
     font-size: 0.875rem;
     font-weight: 400;
     color: var(--colorGrisOscuro);
@@ -217,14 +217,14 @@
     flex-wrap: wrap;
   }
   
-  .header_logo {
+  .header__logo {
     width: 50%;
     padding: 5px 10px 0 20px;
     margin-top: 20px;
     height: 30px;
   }
   
-  .header-form_search-container {
+  .header-form__search-container {
     width: 50%;
     display: block;
     border-radius: 20px;
@@ -232,7 +232,7 @@
     border: none;
   }
   
-  .header-form_buscador {
+  .header-form__buscador {
     margin-top: 20px;
     position: relative;
     display: flex;
@@ -240,7 +240,7 @@
     padding: 7px 20px 0 0px;
   }
   
-  #header-form_input-search {
+  #header-form__input-search {
     height: 35px;
     width: 100%;
     border: none;
@@ -249,7 +249,7 @@
     font-size: 0.75rem;
   }
   
-  .header-form_button {
+  .header-form__button {
     display: flex;
     justify-content: center;
     position: absolute;
@@ -274,7 +274,7 @@
     background-color: #ffffff;
   }
   
-  .header-lista_container {
+  .header-lista__container {
     padding: 0 0 20px 20px;
   }
   
@@ -286,7 +286,7 @@
     text-align: center;
   }
   
-  .header-mensaje_parrafo {
+  .header-mensaje__parrafo {
     white-space: nowrap;
   }
   
@@ -296,30 +296,30 @@
     transition: all 2s ease;
   }
   
-  .header-nav_link {
+  .header-nav__link {
     font-size: 0.9rem;
   }
   
-  .header-nav_link:hover {
+  .header-nav__link:hover {
     color: var(--colorAzul);
   }
   
-  .header-nav_user {
+  .header-nav__user {
     margin-top: 10px;
   }
   
-  .header-nav_icono {
+  .header-nav__icono {
     margin-left: 5px;
   }
   
   /* MENÚ HAMBURGUESA */
   
-  .button_burger {
+  .button__burger {
     background-color: transparent;
     border: none;
   }
   
-  .header-burger_menu {
+  .header-burger__menu {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -330,7 +330,7 @@
     height: auto;
   }
   
-  .header-burger_icono {
+  .header-burger__icono {
     width: 40px;
     height: 40px;
     padding: 10px;
@@ -355,23 +355,23 @@
       width: 66%;
     }
   
-    .header_logo {
+    .header__logo {
       width: 50%;
       margin-top: 10px;
     }
   
-    .header-form_search-container {
+    .header-form__search-container {
       width: 50%;
     }
   
-    .header-form_buscador {
+    .header-form__buscador {
       display: flex;
       margin-top: 20px;
       padding: 7px 20px 0 0px;
       align-items: center;
     }
   
-    #header-form_input-search {
+    #header-form__input-search {
       height: 35px;
       padding-left: 5px;
       border-radius: 5px;
@@ -393,7 +393,7 @@
   
     /* HEADER - LINK */
   
-    .header-lista_container {
+    .header-lista__container {
       width: 100%;
       display: flex;
       padding: 0;
@@ -411,23 +411,23 @@
       justify-content: space-between;
     }
   
-    .header-nav_link {
+    .header-nav__link {
       padding: 0 10px;
     }
   
-    .header-nav_lista,
-    .header-nav_user {
+    .header-nav__lista,
+    .header-nav__user {
       display: flex;
     }
   
-    .header-nav_user {
+    .header-nav__user {
       display: flex;
       padding: 0 40px;
       margin: 0;
       white-space: nowrap;
     }
   
-    .header-burger_menu {
+    .header-burger__menu {
       display: none;
     }
   }
@@ -458,14 +458,14 @@
     
   }
   
-  .footer-section_icono {
+  .footer-section__icono {
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 2em;
     color: var(--colorCeleste);
   }
   
-  .footer-section_icono:hover {
+  .footer-section__icono:hover {
     color: #eac926;
   }
   
@@ -476,7 +476,7 @@
     margin-bottom: 40px;
   }
   
-  .footer-section_descripcion {
+  .footer-section__descripcion {
     font-size: 1rem;
     color: var(--colorGrisOscuro);
   }
@@ -502,7 +502,7 @@
       padding: 10px;
     }
     
-    .footer_copyright{
+    .footer__copyright{
       margin-left: auto;
       margin-right: auto;
       font-size: 1rem;
@@ -525,7 +525,7 @@
     padding-bottom: 20px;
   }
   
-  .main-form_title {
+  .main-form__title {
     margin: 20px 0;
   }
   
@@ -547,35 +547,35 @@
     background-color: #ffffff;
   }
   
-  .form-contenedor_tittle {
+  .form-contenedor__tittle {
     width: 180px;
     padding: 2px 0;
     font-size: 1rem;
     text-align: center;
     color: #ffffff;
-    background-color: var(--colorCeleste);
+    background-color: black;
     white-space: nowrap;
   }
   
-  .form-contenedor_label {
+  .form-contenedor__label {
     margin-top: 5px;
     margin-left: 10px;
     font-size: 1rem;
     font-weight: 500;
   }
   
-  .form-contenedor_input {
+  .form-contenedor__input {
     margin: 1px 10px 10px;
     padding: 5px;
     border: 1px solid #000000;
     border-radius: 2px;
   }
   
-  .form-contenedor_label a{
+  .form-contenedor__label a{
     color: #0000ff;
   }
   
-  .form-contenedor_label a:hover{
+  .form-contenedor__label a:hover{
     color: #267cf4
   }
   
@@ -584,17 +584,18 @@
     padding: 5px;
     font-size: 1rem;
     border-radius: 5px;
-    background-color: #000000;
-    color: #ffffff;
+    background-color: black;
+    color: white;
   }
   
-  .button_enviar:hover {
+  .button__enviar:hover {
     background-color: #0022AA;
     color: #ffffff;
   }
   
-  .button_borrar:hover {
+  .button__borrar:hover {
     background-color: #eac926;
     color: #000000;
   }
-    
+  
+  
