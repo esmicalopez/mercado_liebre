@@ -1,0 +1,18 @@
+{
+  "name": "lopez_mercadoliebre",
+  "version": "1.0.0",
+  "description": "Mercado Liebre.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Micaela Lopez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
