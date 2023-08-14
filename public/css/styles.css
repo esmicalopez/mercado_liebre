@@ -43,7 +43,7 @@
     text-align: center;
   }
   
-  .banner__img {
+  .banner_img {
     width: 100%;
     display: block;
   }
@@ -82,11 +82,11 @@
     margin-bottom: 10px;
   }
   
-  .section-article__img {
+  .section-article_img {
     width: 70%;
   }
   
-  .section-article__box {
+  .section-article_box {
     display: flex;
     flex-wrap: wrap;
     position: relative;
@@ -97,7 +97,7 @@
   
   /* CAMIÓN */
   
-  .section-article__box-icono {
+  .section-article_box-icono {
     position: absolute;
     right: 20px;
     top: -15px;
@@ -112,7 +112,7 @@
     background-color: #ffffff;
   }
   
-  .section-article__box-icono:hover {
+  .section-article_box-icono:hover {
     animation: rotate 1s linear;
     color: var(--colorCeleste);
     border: 1px solid var(--colorCeleste);
@@ -130,20 +130,20 @@
   
   /* DETALLES DEL PRODUCTO */
   
-  .section-article__precio {
+  .section-article_precio {
     width: 30%;
     margin-bottom: 20px;
     font-size: 1rem;
   }
   
-  .section-article__descuento {
+  .section-article_descuento {
     width: 70%;
     padding-left: 20px;
     font-size: 0.875rem;
     color: var(--colorVerde);
   }
   
-  .section-article__descripcion {
+  .section-article_descripcion {
     font-size: 0.875rem;
     font-weight: 400;
     color: var(--colorGrisOscuro);
@@ -217,14 +217,14 @@
     flex-wrap: wrap;
   }
   
-  .header__logo {
+  .header_logo {
     width: 50%;
     padding: 5px 10px 0 20px;
     margin-top: 20px;
     height: 30px;
   }
   
-  .header-form__search-container {
+  .header-form_search-container {
     width: 50%;
     display: block;
     border-radius: 20px;
@@ -232,7 +232,7 @@
     border: none;
   }
   
-  .header-form__buscador {
+  .header-form_buscador {
     margin-top: 20px;
     position: relative;
     display: flex;
@@ -240,7 +240,7 @@
     padding: 7px 20px 0 0px;
   }
   
-  #header-form__input-search {
+  #header-form_input-search {
     height: 35px;
     width: 100%;
     border: none;
@@ -249,7 +249,7 @@
     font-size: 0.75rem;
   }
   
-  .header-form__button {
+  .header-form_button {
     display: flex;
     justify-content: center;
     position: absolute;
@@ -274,7 +274,7 @@
     background-color: #ffffff;
   }
   
-  .header-lista__container {
+  .header-lista_container {
     padding: 0 0 20px 20px;
   }
   
@@ -286,7 +286,7 @@
     text-align: center;
   }
   
-  .header-mensaje__parrafo {
+  .header-mensaje_parrafo {
     white-space: nowrap;
   }
   
@@ -296,30 +296,30 @@
     transition: all 2s ease;
   }
   
-  .header-nav__link {
+  .header-nav_link {
     font-size: 0.9rem;
   }
   
-  .header-nav__link:hover {
+  .header-nav_link:hover {
     color: var(--colorAzul);
   }
   
-  .header-nav__user {
+  .header-nav_user {
     margin-top: 10px;
   }
   
-  .header-nav__icono {
+  .header-nav_icono {
     margin-left: 5px;
   }
   
   /* MENÚ HAMBURGUESA */
   
-  .button__burger {
+  .button_burger {
     background-color: transparent;
     border: none;
   }
   
-  .header-burger__menu {
+  .header-burger_menu {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -330,7 +330,7 @@
     height: auto;
   }
   
-  .header-burger__icono {
+  .header-burger_icono {
     width: 40px;
     height: 40px;
     padding: 10px;
@@ -355,23 +355,23 @@
       width: 66%;
     }
   
-    .header__logo {
+    .header_logo {
       width: 50%;
       margin-top: 10px;
     }
   
-    .header-form__search-container {
+    .header-form_search-container {
       width: 50%;
     }
   
-    .header-form__buscador {
+    .header-form_buscador {
       display: flex;
       margin-top: 20px;
       padding: 7px 20px 0 0px;
       align-items: center;
     }
   
-    #header-form__input-search {
+    #header-form_input-search {
       height: 35px;
       padding-left: 5px;
       border-radius: 5px;
@@ -393,7 +393,7 @@
   
     /* HEADER - LINK */
   
-    .header-lista__container {
+    .header-lista_container {
       width: 100%;
       display: flex;
       padding: 0;
@@ -411,23 +411,23 @@
       justify-content: space-between;
     }
   
-    .header-nav__link {
+    .header-nav_link {
       padding: 0 10px;
     }
   
-    .header-nav__lista,
-    .header-nav__user {
+    .header-nav_lista,
+    .header-nav_user {
       display: flex;
     }
   
-    .header-nav__user {
+    .header-nav_user {
       display: flex;
       padding: 0 40px;
       margin: 0;
       white-space: nowrap;
     }
   
-    .header-burger__menu {
+    .header-burger_menu {
       display: none;
     }
   }
@@ -458,14 +458,14 @@
     
   }
   
-  .footer-section__icono {
+  .footer-section_icono {
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 2em;
     color: var(--colorCeleste);
   }
   
-  .footer-section__icono:hover {
+  .footer-section_icono:hover {
     color: #eac926;
   }
   
@@ -476,12 +476,12 @@
     margin-bottom: 40px;
   }
   
-  .footer-section__descripcion {
+  .footer-section_descripcion {
     font-size: 1rem;
     color: var(--colorGrisOscuro);
   }
   
-  .footer_copy_right {
+  .footer_copyright {
     display: block;
     margin-top: auto;
     margin-bottom: auto;
@@ -502,7 +502,7 @@
       padding: 10px;
     }
     
-    .footer__copyright{
+    .footer_copyright{
       margin-left: auto;
       margin-right: auto;
       font-size: 1rem;
@@ -525,7 +525,7 @@
     padding-bottom: 20px;
   }
   
-  .main-form__title {
+  .main-form_title {
     margin: 20px 0;
   }
   
@@ -547,7 +547,7 @@
     background-color: #ffffff;
   }
   
-  .form-contenedor__tittle {
+  .form-contenedor_tittle {
     width: 180px;
     padding: 2px 0;
     font-size: 1rem;
@@ -557,25 +557,25 @@
     white-space: nowrap;
   }
   
-  .form-contenedor__label {
+  .form-contenedor_label {
     margin-top: 5px;
     margin-left: 10px;
     font-size: 1rem;
     font-weight: 500;
   }
   
-  .form-contenedor__input {
+  .form-contenedor_input {
     margin: 1px 10px 10px;
     padding: 5px;
     border: 1px solid #000000;
     border-radius: 2px;
   }
   
-  .form-contenedor__label a{
+  .form-contenedor_label a{
     color: #0000ff;
   }
   
-  .form-contenedor__label a:hover{
+  .form-contenedor_label a:hover{
     color: #267cf4
   }
   
@@ -588,12 +588,12 @@
     color: #ffffff;
   }
   
-  .button__enviar:hover {
+  .button_enviar:hover {
     background-color: #0022AA;
     color: #ffffff;
   }
   
-  .button__borrar:hover {
+  .button_borrar:hover {
     background-color: #eac926;
     color: #000000;
   }
